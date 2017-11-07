@@ -1,0 +1,35 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+ <proxies>
+        <proxy>
+            <id>example-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>10.18.8.9</host>
+            <port>3128</port>
+            <username>learn23</username>
+            <password>dante</password>
+            <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts>
+        </proxy>
+    </proxies>
+</settings>
+
+
+[user]
+        name = Your Name
+        email = YOUR EMAIL
+
+
+[core]
+        autocrlf = input
+        editor = vim
+[http]
+        proxy = http://learn20:dante@10.18.8.9:3128
+[https]
+        proxy = http://learn20:dante@10.18.8.9:3128
+
+
